@@ -1,0 +1,11 @@
+Obejrzyj dołączony do zadania film.
+
+Zadanie polega na utworzeniu aplikacji losującej prezenty dla użytkownika.
+
+1. Przygotuj interfejs aplikacji wg wzoru na filmie
+aplikacja składa się z kontenera wewnątrz którego są: nagłówek z tytułem aplikacji, dwa formularze i akapit, w którym wyświetlane są informacje dla użytkownika. Każdy z formularzy posiada odpowiedniego typu pole do wprowadzania danych wraz z etykietą opisującą pole oraz przycisk, po kliknięciu na nim wykonywany jest odpowiedni skrypt.
+2. Napisz skrypt działający po stronie przeglądarki. 
+pierwszy formularz służy do dodawania prezentów do tablicy. Należy sprawdzić czy została wprowadzona odpowiednia nazwa prezentu (więcej niż 2 znaki, jeśli nie wyświetlany jest odpowiedni komunikat) i wykorzystując odpowiednią metodę dodać element na końcu tablicy prezentów (w konsoli należy wyświetlić zawartość tablicy po każdym dodaniu elementu)
+drugi formularz służy do losowania prezentu dla użytkownika. Należy sprawdzić czy została wprowadzona odpowiednia nazwa użytkownika (więcej niż 2 znaki, jeśli nie wyświetlany jest odpowiedni komunikat) i wylosować dla niego prezent i wyświetlić stosowny komunikat. Jeśli tablica z prezentami jest pusta należy o tym poinformować użytkownika.
+
+arr[Math.floor(Math.random() * arr.length)]
